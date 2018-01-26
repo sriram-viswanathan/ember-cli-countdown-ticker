@@ -1,0 +1,16 @@
+<h1>Ember CLI countdown ticker</h1>
+
+<h2>Default ticker</h2>
+
+{{ember-cli-countdown-ticker
+  timerExpired=(action 'defaultTimerExpired')}}
+
+<h5 id="ticker1"></h5>
+
+<h2>Ticker with custom config</h2>
+
+{{ember-cli-countdown-ticker
+  config=tickerConfig
+  timerExpired=(action 'customTimerExpired')}}
+
+<h5 id="ticker2"></h5>

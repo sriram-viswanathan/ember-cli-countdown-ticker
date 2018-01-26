@@ -4,6 +4,21 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
+* `ember install ember-cli-countdown-ticker`
+
+## Usage
+
+```
+{{ember-cli-countdown-ticker}}
+
+{{ember-cli-countdown-ticker
+  name=foo
+  config=config
+}}
+```
+
+## Development
+
 * `git clone <repository-url>` this repository
 * `cd ember-cli-countdown-ticker`
 * `npm install`

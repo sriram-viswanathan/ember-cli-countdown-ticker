@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-countdown-ticker/components/ember-cli-countdown-ticker';
